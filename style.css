@@ -1,0 +1,87 @@
+/* Body ka styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    transition: background 0.5s ease; /* Smooth transition for background color */
+    background-color: #ffffff; /* Default background color */
+}
+
+/* Container ka styling */
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f7f7f7; /* Light background for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Heading (h1) ka styling */
+h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Button ka basic styling */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth background transition and scale effect */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Slight scale effect for button on hover */
+}
+
+/* Button active state (when clicked) */
+button:active {
+    transform: scale(1); /* Remove scale effect on click */
+}
+
+/* Reset button ka styling */
+#resetBtn {
+    background-color: #28a745; /* Green color for reset button */
+    margin-left: 10px;
+}
+
+#resetBtn:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+#colorLabel {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    display: inline-block; /* So that it appears next to the input */
+    color: #007bff; /* Color for the label text */
+    font-weight: bold;
+}
+
+/* Color picker ka styling */
+#colorPicker {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    width: 150px;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+footer p {
+    margin: 0;
+}
